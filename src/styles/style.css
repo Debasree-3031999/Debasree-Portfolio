@@ -5,3 +5,17 @@
     --primary-color:  #e96224;
     --hover-color:  #ff6600;
 }
+.buttonGit,.buttonDep{
+    width: 8vw;
+    border: 1px solid rgb(0, 68, 255);
+    /* margin: 5px; */
+    height: 3vw;
+
+    padding: 5%;
+    text-align: center;
+    margin-top: 4px;
+}
+.saya{
+    display: flex;
+    justify-content: space-between;
+}

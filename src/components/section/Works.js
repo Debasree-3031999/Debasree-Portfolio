@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from '../layouts/Project'
-import { projects, miscellaneous, section3Title, section4Title } from '../../profile'
+import { projects, section3Title } from '../../profile'
 
 const Works = () => {
     return (
@@ -13,7 +13,7 @@ const Works = () => {
                 </>
                 <div className="row">
                 {projects && projects.map((x) => 
-                <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills}/>
+                <Project key={x.id} net={x.net} id={x.id} url={x.url} name={x.name} skills={x.skills}/>
                 )}
                 </div>
             </div>

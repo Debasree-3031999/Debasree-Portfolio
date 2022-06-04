@@ -68,6 +68,7 @@ const projects = [
     name: "Credobeauty.com Clone",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/Debasree-3031999/CREADO_BEAUTY.git",
+    net:""
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -75,6 +76,7 @@ const projects = [
     name: "Meanbuy.com Clone",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/Debasree-3031999/Meanbuy.git",
+    net:"https://meanbuy-debasree-u3proj.netlify.app/"
   },
   {
     // Add image in './styles/images.css' in #project3
@@ -82,39 +84,41 @@ const projects = [
     name: "Orbitz.com Colne",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/Debasree-3031999/Orbitz.git",
+    net:"https://orbitz-debasree-u3proj.netlify.app/"
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
     name: "Kindmeal.com Clone",
-    skills: ["HTML, CSS, JS"],
+    skills: ["HTML, CSS, JS,React"],
     url: "https://github.com/Debasree-3031999/Kindmeal.git",
+    net:""
   }
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
 // To Add a Activity, copy any one below and paste it after the last comma and increment the id's Miscellaneous number
 const section4Title = "Miscellaneous";
-const miscellaneous = [
-  {
-    // Add image in './styles/images.css' in #misc1
-    id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc2
-    id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #misc3
-    id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
-  },
-];
+// const miscellaneous = [
+//   {
+//     // Add image in './styles/images.css' in #misc1
+//     id: "misc1",
+//     name: "Miscellaneous 1",
+//     url: "https://github.com/kaustubhai",
+//   },
+//   {
+//     // Add image in './styles/images.css' in #misc2
+//     id: "misc2",
+//     name: "Miscellaneous 2",
+//     url: "https://github.com/kaustubhai",
+//   },
+//   {
+//     // Add image in './styles/images.css' in #misc3
+//     id: "misc3",
+//     name: "Miscellaneous 3",
+//     url: "https://github.com/kaustubhai",
+//   },
+// ];
 // Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
 // To get your own jotform link, go to https://formspree.io/
 // If you hacve the link already, paste it in the contactUrl below
@@ -122,7 +126,7 @@ const section5Title = "Get in Touch";
 const contact = {
   pitch:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+  copyright: "Debasree Ghosh",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
@@ -143,7 +147,6 @@ export {
   about,
   skillsBar,
   projects,
-  miscellaneous,
   contact,
   social,
   section2title,
