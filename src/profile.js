@@ -32,7 +32,7 @@ const skillsBar = [
     faClass: "fab fa-html5",
   },
   {
-    name: "CSS3",
+    name: "CSS",
     // svg: '',
     faClass: "fab fa-css3",
   },
@@ -56,6 +56,11 @@ const skillsBar = [
     // svg: '',
     faClass: "fab fa-aws",
   },
+  // {
+  //   name:"Type-script",
+  //   //svg
+  //   faClass:"fab fa-Type-script",
+  // },
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -125,7 +130,7 @@ const section4Title = "Miscellaneous";
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
+    " You can contact me by dropping a mail on debasreeghosh1999@gmail.com or through either of the two medias.",
   copyright: "Debasree Ghosh",
   contactUrl: "",
 };
@@ -133,11 +138,11 @@ const contact = {
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
   github: "https://github.com/Debasree-3031999",
-  facebook: "https://facebook.com",
+  // facebook: "https://facebook.com",
   // // twitter: "https://twitter.com",
   // instagram: "https://instagram.com",
   linkedin: "https://www.linkedin.com/in/debasree-ghosh-673a16212/",
-  resume: "/src/components/section/DebasreeResume.pdf",
+  resume: "/DebasreeResume.pdf",
 };
 // Dont change anything here
 export {
